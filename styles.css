@@ -1,0 +1,62 @@
+h1{
+   text-align: center;
+}
+.p1 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: royalblue;
+}
+.p2 {
+    margin-top: 15px;
+    font-size: 30px;
+    color: royalblue;
+}
+.p3 {
+    margin-top: 20px;
+    font-size: 30px;
+    color:royalblue;
+}
+p {
+    font-size: 25px;
+}
+ol {
+    font-size:25px;
+}
+img {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    height: auto;
+}
+li {
+    font-size:25px;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 1000% 1000%;
+    animation: rainbow 10s linear infinite;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: royalblue;
+  color: white;
+  font-size: 24px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.back-to-top:hover {
+  background: dodgerblue;
+}
+a {
+    color:aqua;
+}
